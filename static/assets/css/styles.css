@@ -262,6 +262,10 @@ p {
   background-color: #276472;
   border-color: #41a7be;
 }
+/* CUSTOM */
+img.profile {
+  border-radius: 150px
+}
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
   .sidebar-wrapper {

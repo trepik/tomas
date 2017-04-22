@@ -31,7 +31,7 @@ disable404 = true
     # Profile section
     [params.profile]
         name = "Tomáš Repík"
-        tagline = "\"Almost\" Engineer of Bioinformatics"
+        tagline = "\"Almost\" Master of Bioinformatics"
         avatar = "profile.jpg"
 
     # Contact section
