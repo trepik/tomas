@@ -1,6 +1,6 @@
 # Page settings
 
-baseurl = "https://trepik.github.io/cv"
+baseurl = "https://trepik.github.io/cv/"
 languageCode = "en-us"
 title = "Curriculum Vitae"
 theme = "hugo-orbit-theme"
