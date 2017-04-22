@@ -1,0 +1,18 @@
+            <section class="section eeducation-section">
+                <h2 class="section-title"><i class="fa {{ .Site.Params.education.icon }}"></i>{{ i18n "education" }}</h2>
+				{{ range .Site.Params.education.list }}
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">{{ .degree }}</h3>
+                            <div class="time">{{ .dates }}</div>
+                        </div><!--//upper-row-->
+                        <div class="company">{{ .college }}</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>{{ with .details }}{{ . | markdownify }}{{ end }}</p>
+                    </div><!--//details-->
+                </div><!--//item-->
+				{{ end }}
+
+            </section><!--//section-->
