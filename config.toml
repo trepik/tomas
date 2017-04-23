@@ -116,7 +116,7 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "After a languages oriented high school I went to study information technologies to Brno. Three years passed and I successfuly graduated as a **Bachelor of Information Technology**. My stray shoes took me overseas to study for one semester at the **University of Tennessee Chattanooga**. During one year abroad I improved not only my English but also my Spanish. To finish my Master studies I came back to Brno and signed for the **Bioinformatics program**. In november 2015 I started doing open source as an intern at **Red Hat**. After finishing my Master studies I want to move back to Bratislava and therefore I'm looking for a job there."
+        summary = "After a languages oriented high school I went to study information technologies to Brno. Three years passed and I successfuly graduated as a **Bachelor of Information Technology**. My stray shoes took me overseas to study Spanish and computer science at the **University of Tennessee Chattanooga**. After a year abroad I came back to Brno to complete my master studies there. I signed for the **Bioinformatics program** which I am about to finish in couple months time. In November 2015 I started doing open source as an intern at **Red Hat**. During my entire studies I always freshened my mind on hikes with scouts. Besides that I was also part of admin team in an online racing community."
 
     # Education section
     [params.education]
@@ -160,7 +160,7 @@ disable404 = true
         position = "Scout Troop Leader"
         dates = "2010 - present"
         company = "29. troop Albatrosi, Bratislava"
-        details = "I joined scouts when I was 10 and since then I love being one of them. I went under a proper scout leadership education, earning a decree allowing me to do my job. Being a troop leader requires lots of creativity, communication and managerial skills. The scouts movement raise, educate and train children and the youth to become independent, responsible, active and open minded citizens. I think that in my case it proved to be true."
+        details = "I joined scouts when I was 10 and since then I love being one of them. I went under a proper scout leadership education, earning a decree allowing me to do 'my job'. Being a troop leader requires lots of creativity, communication and managerial skills. The scout movement raise, educate and train children and the youth to become independent, responsible, active and open minded citizens. I think that in my case it proved to be true."
 
     # Projects section
     [params.projects]
@@ -170,7 +170,7 @@ disable404 = true
         intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
 
         [[params.projects.list]]
-        title = "Hugrid"
+        title = "Maxpoweleague"
         url = "https://github.com/aerohub/hugrid"
         tagline = "Grid theme for Hugo. It's a kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on"
 
