@@ -31,7 +31,7 @@ disable404 = true
     # Profile section
     [params.profile]
         name = "Tomáš Repík"
-        tagline = "\"Almost\" Master of Bioinformatics"
+        tagline = "Master of Bioinformatics"
         avatar = "profile.jpg"
 
     # Contact section
@@ -47,8 +47,10 @@ disable404 = true
         [[params.contact.list]]
         class = "email"
         icon = "fa-envelope"
-        url = "mailto: tomas@repik.sk"
-        title = "tomas@repik.sk"
+#        url = "mailto: tomas@repik.sk"
+        url = "mailto: tomm.momi@gmail.com"
+        title = "tomm.momi@gmail.com"
+#        title = "tomas@repik.sk"
 
         [[params.contact.list]]
         class = "phone"
@@ -116,7 +118,7 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "After a languages oriented high school I went to study information technologies to Brno. Three years passed and I successfuly graduated as a **Bachelor of Information Technology**. My stray shoes took me overseas to study Spanish and computer science at the **University of Tennessee Chattanooga**. After a year abroad I came back to Brno to complete my master studies there. I signed for the **Bioinformatics program** which I am about to finish in couple months time. In November 2015 I started doing open source as an intern at **Red Hat**. During my entire studies I always freshened my mind on hikes with scouts. Besides that I was also part of admin team in an online racing community."
+        summary = "After a languages oriented high school I went to study information technologies in Brno. Three years passed and I successfuly graduated as a **Bachelor of Information Technology**. My stray shoes took me overseas to study Spanish and computer science at the **University of Tennessee Chattanooga**. After a year abroad I came back to Brno to complete my master studies there. In June 2017 I completed the **Bioinformatics program** obtaining a Master's degree. In November 2015 I started doing open source as an intern at **Red Hat**. During my entire studies I always freshened my mind on hikes with scouts. Besides that I was also part of admin team in an online racing community."
 
     # Education section
     [params.education]
@@ -127,7 +129,7 @@ disable404 = true
         [[params.education.list]]
         degree = "Master of Bioinformatics and Biocomputing"
         college = "Brno University of Technology"
-        dates = "2015 - present"
+        dates = "2015 - 2017"
 
         [[params.education.list]]
         degree = "Online courses of Cluster Analysis and Data Mining"
@@ -154,7 +156,7 @@ disable404 = true
         position = "Associate Software Engineer"
         dates = "2015 - Present"
         company = "Red Hat, Brno"
-        details = "It is my first \"in field\" job experience. I'm a package maintainer for both Fedora and Red Hat Enterprise Linux. I'm maintainig some Java and C packages, but my work includes also some bash or Python. Besides the basic bug-fixing or rpms, I came across technologies like software collections or containers."
+        details = "It is my first \"in field\" job experience. I'm a package maintainer for both Fedora and Red Hat Enterprise Linux. I'm maintainig some Java and C packages, but my work includes also some bash or Python. Besides the basic bug-fixing or RPMS, I came across technologies like Software Collections or Containers."
 
         [[params.jobs.list]]
         position = "Scout Troop Leader"
@@ -164,15 +166,15 @@ disable404 = true
 
     # Projects section
     [params.projects]
-        enable = false
+        enable = true
         icon = "fa-archive"
         title = "Projects"
-        intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
+#        intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
 
         [[params.projects.list]]
         title = "Maxpoweleague"
-        url = "https://github.com/aerohub/hugrid"
-        tagline = "Grid theme for Hugo. It's a kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on"
+        url = "https://www.maxpowerleague.cz"
+        tagline = "Since 2008 I was part of the online racing community around rFactor racing simulator. Ever since I joined I participated in organization of the events. I wrote reports, managed the website and result system, cut video reports and commented on live broadcasts."
 
     # Skills section
     [params.skills]
