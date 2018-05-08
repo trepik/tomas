@@ -1,6 +1,6 @@
 # Page settings
 
-baseurl = "https://trepik.github.io/tomas/"
+baseurl = "https://repik.sk/tomas/"
 languageCode = "en-us"
 title = "Tomáš's CV"
 theme = "hugo-orbit-theme"
