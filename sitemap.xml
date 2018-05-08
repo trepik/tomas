@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://trepik.github.io/tomas/categories/</loc>
+    <loc>https://repik.sk/tomas/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://trepik.github.io/tomas/tags/</loc>
+    <loc>https://repik.sk/tomas/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://trepik.github.io/tomas/</loc>
+    <loc>https://repik.sk/tomas/</loc>
     <priority>0</priority>
   </url>
   
