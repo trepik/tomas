@@ -49,8 +49,10 @@ disable404 = true
         icon = "fa-envelope"
 #        url = "mailto: tomas@repik.sk"
 #        title = "tomas@repik.sk"
-        url = "mailto: tomm.momi@gmail.com"
-        title = "tomm.momi@gmail.com"
+#        url = "mailto: tomm.momi@gmail.com"
+#        title = "tomm.momi@gmail.com"
+        url = "mailto: tomas.repik@instarea.com"
+        title = "tomas.repik@instarea.com"
 
         [[params.contact.list]]
         class = "phone"
@@ -118,7 +120,7 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "After a languages oriented high school I went to study information technologies in Brno. Besides pursuing knowledge and a degree I pursued victories in online races in my free time. Three years passed and I successfuly graduated as a **Bachelor of Information Technology**. My stray shoes took me overseas to study Spanish and computer science at the **University of Tennessee Chattanooga**. After a year abroad I came back to Brno to complete my master studies there. During my entire studies I always freshened my mind on hikes with scouts. I also found a job in Brno at **Red Hat** where I started doing open source. After completing my studies and becoming a **Master of Bioinformatics** I moved back to Bratislava. In september 2017 I joined **Instarea** a big data monetization company, where I'm working as a Data scientist."
+        summary = "After a languages oriented high school I went to study information technologies in Brno. Besides pursuing knowledge and a degree I pursued victories in online races in my free time. Three years passed and I successfuly graduated as a **Bachelor of Information Technology**. My stray shoes took me overseas to learn Spanish and sutdy data analysis at the **University of Tennessee Chattanooga**. After a year abroad I came back to Brno to complete my master studies. During my entire studies I always freshened my mind on hikes with scouts. I also found a job in Brno at **Red Hat** where I started doing open source. After completing my studies and becoming a **Master of Bioinformatics** I moved back to Bratislava. In september 2017 I joined **Instarea** a big data monetization company, where I'm working as a Data scientist."
 
     # Education section
     [params.education]
@@ -180,7 +182,7 @@ disable404 = true
         [[params.projects.list]]
         title = "Maxpoweleague"
         url = "https://www.maxpowerleague.cz"
-        tagline = "Since 2008 I was part of the online racing community around rFactor racing simulator. Ever since I joined I participated in organization of the events. I wrote reports, managed our website and result system, cut video reports and commented on live broadcasts."
+        tagline = "Since 2008 I had been part of the online racing community around rFactor racing simulator. Ever since I joined I participated in organization of the events. I wrote reports, managed our website and result system, cut video reports and commented on live broadcasts."
 
     # Skills section
     [params.skills]
