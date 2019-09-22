@@ -2,7 +2,6 @@
 
 baseurl = "https://repik.sk/tomas/"
 languageCode = "en-us"
-title = "Tomáš's CV"
 theme = "hugo-orbit-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
 
@@ -14,6 +13,7 @@ disable404 = true
 [params]
 
 # Meta
+    title = "Tomáš's CV"
     description = "Career profile"
     author = "Tomáš Repík"
 
@@ -31,7 +31,7 @@ disable404 = true
     # Profile section
     [params.profile]
         name = "Tomáš Repík"
-        tagline = "Data scientist"
+        tagline = "Software engineer"
         avatar = "profile.jpg"
 
     # Contact section
@@ -49,10 +49,10 @@ disable404 = true
         icon = "fa-envelope"
 #        url = "mailto: tomas@repik.sk"
 #        title = "tomas@repik.sk"
-#        url = "mailto: tomm.momi@gmail.com"
-#        title = "tomm.momi@gmail.com"
-        url = "mailto: tomas.repik@instarea.com"
-        title = "tomas.repik@instarea.com"
+        url = "mailto: tomm.momi@gmail.com"
+        title = "tomm.momi@gmail.com"
+#        url = "mailto: tomas.repik@instarea.com"
+#        title = "tomas.repik@instarea.com"
 
         [[params.contact.list]]
         class = "phone"
@@ -120,7 +120,7 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "After a languages oriented high school I went to study information technologies in Brno. Besides pursuing knowledge and a degree I pursued victories in online races in my free time. Three years passed and I successfuly graduated as a **Bachelor of Information Technology**. My stray shoes took me overseas to learn Spanish and sutdy data analysis at the **University of Tennessee Chattanooga**. After a year abroad I came back to Brno to complete my master studies. During my entire studies I always freshened my mind on hikes with scouts. I also found a job in Brno at **Red Hat** where I started doing open source. After completing my studies and becoming a **Master of Bioinformatics** I moved back to Bratislava. In september 2017 I joined **Instarea** a big data monetization company, where I'm working as a Data scientist."
+        summary = "After a languages oriented high school I went to study information technologies in Brno. Besides pursuing knowledge and a degree I pursued victories in online races in my free time. Three years passed and I successfuly graduated as a **Bachelor of Information Technology**. My stray shoes took me overseas to learn Spanish and sutdy data analysis at the **University of Tennessee Chattanooga**. After a year abroad I came back to Brno to complete my master studies. During my entire studies I always freshened my mind on hikes with scouts. I also found a job in Brno at **Red Hat** where I started doing open source. After completing my studies and becoming a **Master of Bioinformatics** I moved back to Bratislava. In september 2017 I joined **Instarea** a big data monetization company, where I'm working as Software engineer."
 
     # Education section
     [params.education]
@@ -155,10 +155,10 @@ disable404 = true
         title = "Experiences"
 
         [[params.jobs.list]]
-        position = "Data scientist / Software Engineer"
+        position = "Data scientist / Software Engineer / Team lead"
         dates = "2017 - present"
         company = "Instarea, Bratislava"
-        details = "Joining a big data monetization company and becoming a data scientist is my dream come true. Directing huge loads of data to find its place and show its value is my main goal. To get this done I'm always investigating new technologies, looking for some alternative aproaches or shortcuts to get better performance, keeping in mind both stability and maintainability. I'm also responsible for bussines intelligence and data visualization, done primarly in PowerBI."
+        details = "Joining a big data monetization company and becoming a data scientist is my dream come true. Directing huge loads of data to find its place and show its value was one of my first tasks. I'm also responsible for bussines intelligence and data visualization, done primarly in PowerBI. Past year I worked on a new project of peopleless sauna, building up en ecosystem (consiting of mobile APPs and IOT devices) from scratch. Apart from development I was also coordinating a team of 5 people working on the solution. I'm always investigating new technologies, looking for some alternative aproaches or shortcuts to get better performance, keeping in mind both stability and maintainability."
 
         [[params.jobs.list]]
         position = "Associate Software Engineer"
@@ -180,6 +180,10 @@ disable404 = true
 #        intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
 
         [[params.projects.list]]
+        title = "ElysiumSpa"
+        url = "https://elysiumspa.sk"
+        tagline = "At Instarea we started to implement our own IOT solution for peopleless smart saunas. Building up a database as a center point of truth was my first task. Then I created a mobile APP for controlling all IOT devices in the sauna. Some automation was necessary and for that NodeRED flows were implemented. After the ideas came alive and more people started to get involved my role included more management task as I became the technical lead of the project."
+
         title = "Maxpoweleague"
         url = "https://www.maxpowerleague.cz"
         tagline = "Since 2008 I had been part of the online racing community around rFactor racing simulator. Ever since I joined I participated in organization of the events. I wrote reports, managed our website and result system, cut video reports and commented on live broadcasts."
@@ -191,20 +195,24 @@ disable404 = true
         title = "Skills & Proficiency"
 
         [[params.skills.list]]
+        skill = "SQL Database (SQL Server, MySQL, PostrgeSQL)"
+        level = "90%"
+
+        [[params.skills.list]]
         skill = "Data visualization tools (PowerBI)"
         level = "90%"
 
         [[params.skills.list]]
-        skill = "New technologies (ClickHouse, MapD, Cassandra, Hugo)"
+        skill = "Internet of Things (Mosquitto, Node-RED)"
         level = "80%"
 
         [[params.skills.list]]
-        skill = "Programming languages (Bash, C, Java, Python, GO)"
+        skill = "New technologies (ClickHouse, OmniSci, Cassandra, Hugo, Docker)"
         level = "80%"
 
         [[params.skills.list]]
-        skill = "SQL Database (SQL Server, MySQL)"
-        level = "70%"
+        skill = "Programming languages (Bash, C, Java, Python, GO, C#)"
+        level = "80%"
 
         [[params.skills.list]]
         skill = "Web development (HTML, CSS, JavaScript, PHP)"
