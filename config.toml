@@ -184,6 +184,7 @@ disable404 = true
         url = "https://elysiumspa.sk"
         tagline = "At Instarea we started to implement our own IOT solution for peopleless smart saunas. Building up a database as a center point of truth was my first task. Then I created a mobile APP for controlling all IOT devices in the sauna. Some automation was necessary and for that NodeRED flows were implemented. After the ideas came alive and more people started to get involved my role included more management task as I became the technical lead of the project."
 
+        [[params.projects.list]]
         title = "Maxpoweleague"
         url = "https://www.maxpowerleague.cz"
         tagline = "Since 2008 I had been part of the online racing community around rFactor racing simulator. Ever since I joined I participated in organization of the events. I wrote reports, managed our website and result system, cut video reports and commented on live broadcasts."
