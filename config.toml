@@ -129,6 +129,11 @@ disable404 = true
         title = "Education"
 
         [[params.education.list]]
+        degree = "Online courses of Reactive architecture"
+        college = "Cognitive class"
+        dates = "2018"
+
+        [[params.education.list]]
         degree = "Master of Bioinformatics and Biocomputing"
         college = "Brno University of Technology"
         dates = "2015 - 2017"
@@ -158,7 +163,7 @@ disable404 = true
         position = "Data scientist / Software Engineer / Team lead"
         dates = "2017 - present"
         company = "Instarea, Bratislava"
-        details = "Joining a big data monetization company and becoming a data scientist is my dream come true. Directing huge loads of data to find its place and show its value was one of my first tasks. I'm also responsible for bussines intelligence and data visualization, done primarly in PowerBI. Past year I worked on a new project of peopleless sauna, building up en ecosystem (consiting of mobile APPs and IOT devices) from scratch. Apart from development I was also coordinating a team of 5 people working on the solution. I'm always investigating new technologies, looking for some alternative aproaches or shortcuts to get better performance, keeping in mind both stability and maintainability."
+        details = "Becoming a data scientist is my dream come true. Directing huge loads of data to find its place and show its value was one of my first tasks. I'm also responsible for bussines intelligence and data visualization, done primarly in PowerBI. Past year I've been working on a new project of peopleless sauna, building up an ecosystem (consiting of mobile APPs and IOT devices) from scratch. Apart from development I'm also coordinating a team of 5 people working on the solution. I'm always investigating new technologies, looking for some alternative aproaches or shortcuts to get better performance, keeping in mind both stability and maintainability."
 
         [[params.jobs.list]]
         position = "Associate Software Engineer"
@@ -170,7 +175,7 @@ disable404 = true
         position = "Scout Troop Leader"
         dates = "2010 - present"
         company = "29. troop Albatrosi, Bratislava"
-        details = "I joined scouts when I was 10 and since then I love being one of them. I went under a proper scout leadership education, earning a decree allowing me to do 'my job'. Being a troop leader requires lots of creativity, communication and managerial skills. The scout movement raise, educate and train children and the youth to become independent, responsible, active and open minded citizens. I think that in my case it proved to be true."
+        details = "I joined scouts when I was 10 and since then I love being one of them. I went under a proper scout leadership education, earning a decree. Being a troop leader requires lots of creativity, communication and managerial skills. The scout movement raise, educate and train children and the youth to become independent, responsible, active and open minded citizens. I think that in my case it proved to be true."
 
     # Projects section
     [params.projects]
