@@ -17,4 +17,12 @@
 		{{ if .Site.Params.interests.enable }}
 		{{ partial "interests.html" . }}
 		{{ end }}
+
+		{{ if .Site.Params.cares.enable }}
+		{{ partial "cares.html" . }}
+		{{ end }}
+
+		{{ if .Site.Params.wonders.enable }}
+		{{ partial "wonders.html" . }}
+		{{ end }}
         </div><!--//sidebar-wrapper-->

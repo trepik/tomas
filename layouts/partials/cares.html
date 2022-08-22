@@ -1,0 +1,8 @@
+            <div class="cares-container container-block">
+                <h2 class="container-block-title">{{ i18n "cares" }}</h2>
+                <ul class="list-unstyled interests-list">
+				{{ range .Site.Params.cares.list }}
+                    <li>{{ .cares }}</li>
+				{{ end }}
+                </ul>
+            </div><!--//cares-->

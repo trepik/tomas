@@ -99,7 +99,7 @@ disable404 = true
 
     # Interests section
     [params.interests]
-        enable = true
+        enable = false
         title = "Interests"
 
         [[params.interests.list]]
@@ -111,6 +111,26 @@ disable404 = true
         [[params.interests.list]]
         interest = "Guitar Music"
 
+    # Cares section
+    [params.cares]
+        enable = true
+        title = "Cares about"
+
+        [[params.cares.list]]
+        cares = "Healthy and honest relationships"
+
+        [[params.cares.list]]
+        cares = "Sustainable life style"
+
+        [[params.cares.list]]
+        cares = "Humans understanding technology"
+
+    # Wonders section
+    [params.wonders]
+        enable = true
+        title = "Wonders"
+        question = "Why so many people stop asking why?"
+
 # Main body sections
 
     # You may use markdown in summary, details and intro fields. But don't overdose, it's resume!:)
@@ -120,7 +140,7 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "After a languages oriented high school I went to study information technologies in Brno. Besides pursuing knowledge and a degree I pursued victories in online races in my free time. Three years passed and I successfuly graduated as a **Bachelor of Information Technology**. My stray shoes took me overseas to learn Spanish and sutdy data analysis at the **University of Tennessee Chattanooga**. After a year abroad I came back to Brno to complete my master studies. During my entire studies I always freshened my mind on hikes with scouts. I also found a job in Brno at **Red Hat** where I started doing open source. After completing my studies and becoming a **Master of Bioinformatics** I moved back to Bratislava. In september 2017 I joined **Instarea** a big data monetization company, where I'm working as Software engineer."
+        summary = "After a languages oriented high school I went to study information technologies in Brno. Besides pursuing knowledge and a degree I pursued victories in online races in my free time. Three years passed and I successfuly graduated as a **Bachelor of Information Technology**. My stray shoes took me overseas to learn Spanish and sutdy data analysis at the **University of Tennessee Chattanooga**. After a year abroad I came back to Brno to complete my master studies. During my entire studies I always freshened my mind on hikes with scouts. I also found a job in Brno at **Red Hat** where I started doing open source. After completing my studies and becoming a **Master of Bioinformatics** I moved back to Bratislava. In september 2017 I joined **Instarea** a big data monetization company, where I'm working as Software engineer.I'm always investigating new technologies, looking for some alternative aproaches or shortcuts to get better performance, keeping in mind both stability and maintainability."
 
     # Education section
     [params.education]
@@ -129,7 +149,12 @@ disable404 = true
         title = "Education"
 
         [[params.education.list]]
-        degree = "Online courses of Reactive architecture"
+        degree = "Kanban practitioner"
+        college = "Kanban university"
+        dates = "2022"
+
+        [[params.education.list]]
+        degree = "Reactive architecture"
         college = "Cognitive class"
         dates = "2018"
 
@@ -139,7 +164,7 @@ disable404 = true
         dates = "2015 - 2017"
 
         [[params.education.list]]
-        degree = "Online courses of Cluster Analysis and Data Mining"
+        degree = "Cluster Analysis and Data Mining"
         college = "Coursera"
         dates = "2015"
 
@@ -160,20 +185,32 @@ disable404 = true
         title = "Experiences"
 
         [[params.jobs.list]]
+        position = "Data specialist in spare parts management"
+        dates = "2020 - present"
+        company = "Lenovo, Bratislava"
+        details = "I'm part of a small team supporting business people with answers. These answers are usually need fast and precise, based on data of vast volumes spread around many systems. Data visualization is my dominant power, but with that come also data integration (APIs), processing and management. We're also called automation team as we're transforming many processes done manualy into automated solutions. As an exchange for my technical expertise I learnd a lot about logistics, planning and business partner management."
+
+        [[params.jobs.list]]
+        position = "Coordinator of waste management at Christmas market"
+        dates = "December 2019"
+        company = "The capital city of Slovakia, Bratislava"
+        details = "When this position was opened I could not resist to try it out. Being respnosible for for the whole waste sortation process included: managing shifts of workers, watching over them at sortaton stations as well as watching over businesses and their waste management. Reporting to mayor and his team on how the process is going on and what can be improved for next years was just a cherry on top of this great experience."
+
+        [[params.jobs.list]]
         position = "Data scientist / Software Engineer / Team lead"
-        dates = "2017 - present"
+        dates = "2017 - 2019"
         company = "Instarea, Bratislava"
-        details = "Becoming a data scientist is my dream come true. Directing huge loads of data to find its place and show its value was one of my first tasks. I'm also responsible for bussines intelligence and data visualization, done primarly in PowerBI. Past year I've been working on a new project of peopleless sauna, building up an ecosystem (consiting of mobile APPs and IOT devices) from scratch. Apart from development I'm also coordinating a team of 5 people working on the solution. I'm always investigating new technologies, looking for some alternative aproaches or shortcuts to get better performance, keeping in mind both stability and maintainability."
+        details = "Becoming data scientist was one of my dreams come true. Directing huge loads of data to find its place and show its value was one of my first tasks. I was also responsible for bussines intelligence and data visualization, done primarly in PowerBI. Then I've been working on a project of peopleless sauna, building up an ecosystem (consiting of mobile APPs and IOT devices) from scratch. Apart from development I was also coordinating a team of 5 people working on the solution."
 
         [[params.jobs.list]]
         position = "Associate Software Engineer"
         dates = "2015 - 2017"
         company = "Red Hat, Brno"
-        details = "It was my first \"in field\" job experience. I was a package maintainer for both Fedora and Red Hat Enterprise Linux. I was maintainig some Java and C packages, but my work included also some bash or Python. Besides the basic bug-fixing or RPMS, I came across technologies like Software Collections or Containers."
+        details = "I was a package maintainer for both Fedora and Red Hat Enterprise Linux. My work included Java and C, but also scripting in bash or Python. Besides the basic bug-fixing or RPMs, I came across technologies like Software Collections and Containers."
 
         [[params.jobs.list]]
         position = "Scout Troop Leader"
-        dates = "2010 - present"
+        dates = "2010 - 2022"
         company = "29. troop Albatrosi, Bratislava"
         details = "I joined scouts when I was 10 and since then I love being one of them. I went under a proper scout leadership education, earning a decree. Being a troop leader requires lots of creativity, communication and managerial skills. The scout movement raise, educate and train children and the youth to become independent, responsible, active and open minded citizens. I think that in my case it proved to be true."
 
@@ -191,8 +228,8 @@ disable404 = true
 
         [[params.projects.list]]
         title = "Maxpoweleague"
-        url = "https://www.maxpowerleague.cz"
-        tagline = "Since 2008 I had been part of the online racing community around rFactor racing simulator. Ever since I joined I participated in organization of the events. I wrote reports, managed our website and result system, cut video reports and commented on live broadcasts."
+        url = "https://www.youtube.com/maxpowerleague"
+        tagline = "During my studies I had been part of an online racing community around rFactor racing simulator. Ever since I joined I participated in organization of the events. I wrote reports, managed website and result system, cut video reports and commented on live broadcasts."
 
     # Skills section
     [params.skills]
@@ -209,24 +246,24 @@ disable404 = true
         level = "90%"
 
         [[params.skills.list]]
-        skill = "Internet of Things (Mosquitto, Node-RED)"
-        level = "80%"
-
-        [[params.skills.list]]
         skill = "New technologies (ClickHouse, OmniSci, Cassandra, Hugo, Docker)"
         level = "80%"
 
         [[params.skills.list]]
-        skill = "Programming languages (Bash, C, Java, Python, GO, C#)"
+        skill = "Programming languages (GO, Python, C, Java, Bash, C#)"
         level = "80%"
 
         [[params.skills.list]]
-        skill = "Web development (HTML, CSS, JavaScript, PHP)"
+        skill = "Internet of Things (Mosquitto, Node-RED)"
+        level = "70%"
+
+        [[params.skills.list]]
+        skill = "Web development (HTML, CSS, JavaScript, PHP, Joomla, Wordpress)"
         level = "70%"
 
         [[params.skills.list]]
         skill = "Multimedia tools (Adobe Premiere, Photoshop)"
-        level = "60%"
+        level = "50%"
 
     # Footer section
 
@@ -238,4 +275,5 @@ disable404 = true
     # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
 
     [params.footer]
+
         copyright = ""
