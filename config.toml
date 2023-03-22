@@ -123,13 +123,13 @@ disable404 = true
         cares = "Sustainable life style"
 
         [[params.cares.list]]
-        cares = "Humans understanding technology"
+        cares = "Spreading knowledge"
 
     # Wonders section
     [params.wonders]
         enable = true
         title = "Wonders"
-        question = "Why so many people stop asking why?"
+        question = "What will our chilldren say was the best thing we did for them nowdays?"
 
 # Main body sections
 
@@ -139,8 +139,8 @@ disable404 = true
     [params.summary]
         enable = true
         icon = "fa-user"
-        title = "Career Profile"
-        summary = "After a languages oriented high school I went to study information technologies in Brno. Besides pursuing knowledge and a degree I pursued victories in online races in my free time. Three years passed and I successfuly graduated as a **Bachelor of Information Technology**. My stray shoes took me overseas to learn Spanish and sutdy data analysis at the **University of Tennessee Chattanooga**. After a year abroad I came back to Brno to complete my master studies. During my entire studies I always freshened my mind on hikes with scouts. I also found a job in Brno at **Red Hat** where I started doing open source. After completing my studies and becoming a **Master of Bioinformatics** I moved back to Bratislava. In september 2017 I joined **Instarea** a big data monetization company, where I'm working as Software engineer.I'm always investigating new technologies, looking for some alternative aproaches or shortcuts to get better performance, keeping in mind both stability and maintainability."
+        title = "About me"
+        summary = "As a father of two young children I recently rediscovered the passion for asking why. Actually questioning the status quo is one of the constants in my life. How does this work? Why do we do it like this? Can we do it in another, maybe better way? These are the questions I am asking a lot. Haveing some basic knowledge or expertise is key to be worthy in any society. Understanding and viewing the current state/process/problem from different perspectives is a solid ground for makeing improvement. Then there is this leap of faith into the unknown of trying new things and possibly also making mistakes. But with courage, creativity and persitestence onboard there is very high probability of success."
 
     # Education section
     [params.education]
@@ -188,13 +188,13 @@ disable404 = true
         position = "Data specialist in spare parts management"
         dates = "2020 - present"
         company = "Lenovo, Bratislava"
-        details = "I'm part of a small team supporting business people with answers. These answers are usually need fast and precise, based on data of vast volumes spread around many systems. Data visualization is my dominant power, but with that come also data integration (APIs), processing and management. We're also called automation team as we're transforming many processes done manualy into automated solutions. As an exchange for my technical expertise I learnd a lot about logistics, planning and business partner management."
+        details = "I'm part of a small team supporting business people with answers. These answers are usually needed fast and precise, based on data of vast volumes spread around many systems. Data visualization is my dominant power, but behind the scenes there is lots of data integration (APIs), processing and management. We're also called automation team as we're transforming many processes done manualy into automated solutions. As an exchange for my technical expertise I learnd a lot about logistics, planning and business partner management."
 
         [[params.jobs.list]]
         position = "Coordinator of waste management at Christmas market"
         dates = "December 2019"
         company = "The capital city of Slovakia, Bratislava"
-        details = "When this position was opened I could not resist to try it out. Being respnosible for for the whole waste sortation process included: managing shifts of workers, watching over them at sortaton stations as well as watching over businesses and their waste management. Reporting to mayor and his team on how the process is going on and what can be improved for next years was just a cherry on top of this great experience."
+        details = "When this position was opened I could not resist to try it out. Being respnosible for for the whole waste sortation process included: managing shifts of workers, watching over them at sortaton stations as well as watching over businesses and their waste management. Reporting to mayor and his team on how the process is going and what can be improved for next years, was just a cherry on top of this great experience."
 
         [[params.jobs.list]]
         position = "Data scientist / Software Engineer / Team lead"
@@ -250,7 +250,7 @@ disable404 = true
         level = "80%"
 
         [[params.skills.list]]
-        skill = "Programming languages (GO, Python, C, Java, Bash, C#)"
+        skill = "Programming languages (GO, Python, C#, Java, C, Bash)"
         level = "80%"
 
         [[params.skills.list]]
@@ -259,11 +259,11 @@ disable404 = true
 
         [[params.skills.list]]
         skill = "Web development (HTML, CSS, JavaScript, PHP, Joomla, Wordpress)"
-        level = "70%"
+        level = "50%"
 
         [[params.skills.list]]
         skill = "Multimedia tools (Adobe Premiere, Photoshop)"
-        level = "50%"
+        level = "40%"
 
     # Footer section
 
