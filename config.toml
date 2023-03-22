@@ -123,13 +123,13 @@ disable404 = true
         cares = "Sustainable life style"
 
         [[params.cares.list]]
-        cares = "Spreading knowledge"
+        cares = "Spreading technical knowledge"
 
     # Wonders section
     [params.wonders]
         enable = true
         title = "Wonders"
-        question = "What will our chilldren say was the best thing we did for them nowdays?"
+        question = "What will our chilldren say one day, that this was the best thing you did for our future?"
 
 # Main body sections
 
@@ -140,7 +140,7 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "About me"
-        summary = "As a father of two young children I recently rediscovered the passion for asking why. Actually questioning the status quo is one of the constants in my life. How does this work? Why do we do it like this? Can we do it in another, maybe better way? These are the questions I am asking a lot. Haveing some basic knowledge or expertise is key to be worthy in any society. Understanding and viewing the current state/process/problem from different perspectives is a solid ground for makeing improvement. Then there is this leap of faith into the unknown of trying new things and possibly also making mistakes. But with courage, creativity and persitestence onboard there is very high probability of success."
+        summary = "As a father of two young children I recently rediscovered the passion for asking why. Actually questioning the status quo is one of the constants in my life. How does this work? Why do we do it like this? Can we do it other, maybe better way? These are the questions I am asking a lot. Having some basic knowledge or expertise is key to be worthy in any society. Understanding and viewing the current state/process/problem from different perspectives is a solid ground for making improvements. Then there is this leap of faith into the unknown of trying new ways and possibly also making mistakes. But with courage, creativity and persistence onboard, there is very high probability of success."
 
     # Education section
     [params.education]
@@ -220,6 +220,11 @@ disable404 = true
         icon = "fa-archive"
         title = "Projects"
 #        intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
+
+        [[params.projects.list]]
+        title = "Cyber4Kids"
+        url = "https://www.cyber4kids.sk"
+        tagline = "During my time at Lenovo I joined guys from DigiQ in their very nice project for children. Together with experts from other companies, we are educating students from various schools of various ages about safety on the internet. Digital learning, hackers, personal information, social networks, hoaxes, gameing, cyberbulling, critical thinking are the topics we discussed openly during our workshops."
 
         [[params.projects.list]]
         title = "ElysiumSpa"
