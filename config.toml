@@ -224,7 +224,7 @@ disable404 = true
         [[params.projects.list]]
         title = "Cyber4Kids"
         url = "https://www.cyber4kids.sk"
-        tagline = "During my time at Lenovo I joined guys from DigiQ in their very nice project for children. Together with experts from other companies, we are educating students from various schools of various ages about safety on the internet. Digital learning, hackers, personal information, social networks, hoaxes, gameing, cyberbulling, critical thinking are the topics we discussed openly during our workshops."
+        tagline = "With Lenovo I joined guys from DigiQ in their very nice project for children. Together with experts from other companies, we are educating students from various schools of various ages about safety on the internet. Digital learning, hackers, personal information, social networks, hoaxes, gameing, cyberbulling, critical thinking are the topics we are discussing openly during our workshops."
 
         [[params.projects.list]]
         title = "ElysiumSpa"
